@@ -1,0 +1,141 @@
+/* ================================
+  ESTILO GENERAL
+================================= */
+  
+  body {
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    background-color: #f4f6f9;
+      color: #2c3e50;
+  }
+
+/* ================================
+  HEADER SUPERIOR
+================================= */
+  
+  .navbar {
+    background: linear-gradient(90deg, #4f46e5, #06b6d4);
+                                border: none;
+  }
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 18px;
+  color: white !important;
+}
+
+.navbar-nav > li > a {
+  color: rgba(255,255,255,0.85) !important;
+  transition: 0.3s ease;
+}
+
+.navbar-nav > li > a:hover {
+  color: white !important;
+  transform: translateY(-2px);
+}
+
+/* ================================
+  TARJETAS KPI (valueBox)
+================================= */
+  
+  .value-box {
+    border-radius: 18px !important;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+  }
+
+.value-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+}
+
+/* Colores suaves para encuestas */
+  
+.bg-primary {
+  background: linear-gradient(135deg, #6366f1, #4f46e5) !important;
+}
+
+.bg-success {
+  background: linear-gradient(135deg, #10b981, #059669) !important;
+}
+
+.bg-warning {
+  background: linear-gradient(135deg, #f59e0b, #d97706) !important;
+}
+
+.bg-danger {
+  background: linear-gradient(135deg, #ef4444, #dc2626) !important;
+}
+
+/* ================================
+  GRÁFICOS
+================================= */
+  
+  .chart-wrapper {
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+    margin-bottom: 25px;
+    transition: 0.3s ease;
+  }
+
+.chart-wrapper:hover {
+  box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+}
+
+/* ================================
+  TABLAS
+================================= */
+  
+  table.dataTable {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  }
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  border-radius: 8px !important;
+  background-color: #e5e7eb !important;
+    margin: 2px;
+  transition: 0.2s ease;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  background-color: #6366f1 !important;
+    color: white !important;
+}
+
+/* ================================
+  FILTROS / SELECT INPUT
+================================= */
+  
+  select, .form-control {
+    border-radius: 12px !important;
+    border: 1px solid #e5e7eb !important;
+    padding: 8px 12px;
+    transition: 0.2s ease;
+  }
+
+select:focus, .form-control:focus {
+  border-color: #6366f1 !important;
+    box-shadow: 0 0 0 3px rgba(99,102,241,0.2) !important;
+}
+
+/* ================================
+  SECCIONES
+================================= */
+  
+  .section.level1 h1,
+.section.level2 h2 {
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #1f2937;
+}
+
+/* ================================
+  EFECTO SUAVE DE TRANSICIÓN
+================================= */
+  
+  * {
+    transition: all 0.2s ease-in-out;
+  }
